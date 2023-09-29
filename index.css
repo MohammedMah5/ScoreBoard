@@ -1,0 +1,42 @@
+body {
+    background-color: #0C4A6E;
+    color: white;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+ 
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Home , .Guest {
+    text-align: center;
+}
+.Home h1 , .Guest h1 {
+    font-size: 100px;
+    margin: 0;
+}
+.Home h2 , .Guest h2 {
+    background-color: #1F2937;
+    padding: 30px 50px 30px 50px;
+    font-size: 80px;
+    margin: 0;
+    font-family: 'Orbitron';
+    border-radius: 20px;
+}
+.Home div , .Guest div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Home div button , .Guest div button {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    margin-top: 10px;
+}
